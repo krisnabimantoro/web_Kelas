@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="flex justify-center h-screen w-screen items-center bg-gradient-to-tr from-amber-100 to-amber-200">
+    <div class="p-20 bg-green-800 border text-white border-red-900 flex justify-center rounded-2xl">
+      <form name="myform" id="form1" action="" class="flex flex-col w-96 gap-1" onsubmit=" validateForm()">
+        <h1 class="font-bold text-2xl">Form Pendaftaran</h1>
+        <h2>Nama</h2>
+        <input type="text" name="name" id="" class="border border-black rounded-sm" />
+        <h2>Email</h2>
+        <input type="text" name="email" id="" class="border border-black rounded-sm" />
+        <h2>Alamat Lengkap</h2>
+        <textarea name="alamat" id="" cols="25" rows="4" class="border border-black rounded-sm"></textarea>
+        <input type="submit" form="form1" value="Daftar" class="max-w-24 mt-5 h-10 rounded-md bg-black text-white hover:cursor-pointer" />
+      </form>
+    </div>
+  </body>
+  <script src="./code2.js"></script>
+</html>
